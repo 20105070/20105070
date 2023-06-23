@@ -1,0 +1,22 @@
+/*country.component.spec.ts - Daniel Syrén (20105070)*/
+import { ComponentFixture, TestBed } from '@angular/core/testing';
+
+import { CountryComponent } from './country.component';
+
+describe('CountryComponent', () => {
+  let component: CountryComponent;
+  let fixture: ComponentFixture<CountryComponent>;
+
+  beforeEach(() => {
+    TestBed.configureTestingModule({
+      declarations: [CountryComponent]
+    });
+    fixture = TestBed.createComponent(CountryComponent);
+    component = fixture.componentInstance;
+    fixture.detectChanges();
+  });
+
+  it('should create', () => {
+    expect(component).toBeTruthy();
+  });
+});
