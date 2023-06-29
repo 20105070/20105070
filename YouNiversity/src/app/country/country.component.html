@@ -16,6 +16,9 @@
         <div class="navOff">
             <a href="/City">City</a>
         </div>
+        <div class="navOff">
+            <a href="/Cloud">Cloud</a>
+        </div>
     </div>
 
     <br /><br /><br /><br /><br /><br /><br /><br />
@@ -32,6 +35,7 @@
     <div class="container" *ngFor="let university of universities">
         <div style='height:50px;'>
             <a href='{{university.webPage}}' target='_blank' style='background-color:#00FF00;'>{{university.name}}</a>
+            <button (click)="save()">SAVE</button>
         </div>
     </div>
 

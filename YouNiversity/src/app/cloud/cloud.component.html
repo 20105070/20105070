@@ -1,0 +1,44 @@
+<!--cloud.component.html - Daniel Syrén (20105070)-->
+<html>
+
+<head>
+    <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Cloud</title>
+</head>
+
+<body>
+
+    <!--Navigation Bar-->
+    <div class="flex">
+        <div class="navOff">
+            <a href="/Country">Country</a>
+        </div>
+        <div class="navOff">
+            <a href="/City">City</a>
+        </div>
+        <div class="navOn">
+            <a href="/Cloud">Cloud</a>
+        </div>
+    </div>
+
+    <br /><br /><br /><br /><br /><br /><br /><br />
+
+    <!--Search Bar-->
+    <div class="flexBar">
+        <button (click)="load()">LOAD</button>
+    </div>
+
+    <br /><br /><br /><br /><br /><br /><br /><br />
+
+    <div class="container" *ngFor="let response of responses">
+        <div style='height:50px;'>
+            <a href='{{response.webPage}}' target='_blank' style='background-color:#00FF00;'>{{response.name}}</a>
+            <button (click)="delete()">DELETE</button>
+        </div>
+    </div>
+
+    <br /><br /><br /><br /><br /><br /><br /><br />
+
+</body>
+
+</html>

@@ -75,4 +75,8 @@ export class CountryComponent implements OnInit {
       .then(jsonRes => this.displayO(jsonRes));
   }
 
+  save() {
+    alert("Saved!");
+  }
+  
 }

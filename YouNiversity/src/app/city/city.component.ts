@@ -75,4 +75,9 @@ export class CityComponent implements OnInit {
       .then(jsonRes => this.displayI(jsonRes));
   }
 
+  save() {
+    alert("Saved!");
 }
+
+}
+
