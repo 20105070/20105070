@@ -9,22 +9,22 @@ import { HttpService } from '../http_service';
 })
 export class CloudComponent {
 
-    universities: University[];
-    responses: University[];
+  universities: University[];
 
   constructor(private httpService: HttpService) {
     this.universities = [];
-    this.responses = [];
   }
 
-  delete() {
-    alert("Deleted!");
-}
+  delete(name: string) {
+    this.httpService.deleteUniversity(name).subscribe(() => {
+      this.load();
+    });
+  }
 
   load() {
-    this.httpService.getData().subscribe((response: any) => {
-      this.responses = response;
+    this.httpService.getUniversities().subscribe((universities: University[]) => {
+      this.universities = universities;
     });
-}
+  }
 
 }

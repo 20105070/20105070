@@ -77,7 +77,7 @@ export class CityComponent implements OnInit {
 
   save() {
     alert("Saved!");
-}
+  }
 
 }
 

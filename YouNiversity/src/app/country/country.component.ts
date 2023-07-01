@@ -78,5 +78,5 @@ export class CountryComponent implements OnInit {
   save() {
     alert("Saved!");
   }
-  
+
 }
