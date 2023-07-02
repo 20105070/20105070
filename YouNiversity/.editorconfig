@@ -1,4 +1,4 @@
-# Editor configuration, see https://editorconfig.org
+# .editorconfig - Daniel Syrén (20105070)
 root = true
 
 [*]

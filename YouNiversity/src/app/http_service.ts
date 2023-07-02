@@ -9,17 +9,25 @@ import { University } from './models/university';
 })
 export class HttpService {
 
-  constructor(private http: HttpClient) { }
+  /*constructor(private httpClient: HttpClient) injects httpClient.*/
+  constructor(private httpClient: HttpClient) { }
 
-  getUniversities(): Observable<University[]> {
-    let headers = new HttpHeaders().set('Access-Control-Allow-Origin', "*"); // create header object
-
-    return this.http.get<University[]>('https://localhost:7013/University/GetUniversities', { headers: headers });
+  /*deleteUniversity() sends delete request to the C# back-end.*/
+  deleteUniversity(name: string): Observable<any> {
+    let headers = new HttpHeaders().set('Access-Control-Allow-Origin', "*");
+    return this.httpClient.delete(`https://localhost:7013/University/DeleteUniversity/${name}`, { headers: headers });
   }
 
-  deleteUniversity(name: string): Observable<any> {
-    let headers = new HttpHeaders().set('Access-Control-Allow-Origin', "*"); // create header object
-    return this.http.delete(`https://localhost:7013/University/DeleteUniversity/${name}`, { headers: headers });
+  /*getUniversities() sends get request to the C# back-end.*/
+  getUniversities(): Observable<University[]> {
+    let headers = new HttpHeaders().set('Access-Control-Allow-Origin', "*");
+    return this.httpClient.get<University[]>('https://localhost:7013/University/GetUniversities', { headers: headers });
+  }
+
+  /*postUniversity() sends post request to the C# back-end.*/
+  postUniversity(university: University): Observable<any> {
+    let headers = new HttpHeaders().set('Access-Control-Allow-Origin', "*").set('Content-Type', 'application/json');
+    return this.httpClient.post<University>('https://localhost:7013/University/PostUniversity/', university, { headers: headers });
   }
 
 }

@@ -31,11 +31,11 @@
 
     <br /><br /><br /><br /><br /><br /><br /><br />
 
-    <!--JSON Container-->
+    <!--University Containers-->
     <div class="container" *ngFor="let university of universities">
         <div style='height:50px;'>
             <a href='{{university.webPage}}' target='_blank' style='background-color:#00FF00;'>{{university.name}}</a>
-            <button (click)="save()">SAVE</button>
+            <button (click)="save(university)">SAVE</button>
         </div>
     </div>
 
