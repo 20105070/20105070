@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\20105070\\Desktop\\YouNiversityApi\\YouNiversityApi\\YouNiversityApi.csproj": {}
+    "C:\\Users\\20105070\\source\\repos\\20105070\\YouNiversityApi\\YouNiversityApi\\YouNiversityApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\20105070\\Desktop\\YouNiversityApi\\YouNiversityApi\\YouNiversityApi.csproj": {
+    "C:\\Users\\20105070\\source\\repos\\20105070\\YouNiversityApi\\YouNiversityApi\\YouNiversityApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\20105070\\Desktop\\YouNiversityApi\\YouNiversityApi\\YouNiversityApi.csproj",
+        "projectUniqueName": "C:\\Users\\20105070\\source\\repos\\20105070\\YouNiversityApi\\YouNiversityApi\\YouNiversityApi.csproj",
         "projectName": "YouNiversityApi",
-        "projectPath": "C:\\Users\\20105070\\Desktop\\YouNiversityApi\\YouNiversityApi\\YouNiversityApi.csproj",
+        "projectPath": "C:\\Users\\20105070\\source\\repos\\20105070\\YouNiversityApi\\YouNiversityApi\\YouNiversityApi.csproj",
         "packagesPath": "C:\\Users\\20105070\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\20105070\\Desktop\\YouNiversityApi\\YouNiversityApi\\obj\\",
+        "outputPath": "C:\\Users\\20105070\\source\\repos\\20105070\\YouNiversityApi\\YouNiversityApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\20105070\\AppData\\Roaming\\NuGet\\NuGet.Config",

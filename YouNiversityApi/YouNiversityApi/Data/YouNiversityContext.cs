@@ -1,4 +1,5 @@
-﻿using ConsoleApp1.Entities;
+﻿/*YouNiversityContext.cs - Daniel Syrén (20105070)*/
+using ConsoleApp1.Entities;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;

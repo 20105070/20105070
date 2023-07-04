@@ -1,4 +1,5 @@
-﻿using System;
+﻿/*University.cs - Daniel Syrén (20105070)*/
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;

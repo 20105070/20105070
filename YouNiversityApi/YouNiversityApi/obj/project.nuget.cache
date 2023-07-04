@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mK7OOA7MZKmNZ0Mn0FvTYEynDsiZ5GfjPsPSmeBvSY5y1kmh43e8LEQV317rGJZV4CITlNtmlAIa/EybEsEn7A==",
+  "dgSpecHash": "WfhZyEdZboIHM/kA46HSPJBQcj5KN0aGkhJh+yJs8+zgnmQ4LcY+uvoXXCl46UGYViTGfZ0I8H3qfIe1cV9Sig==",
   "success": true,
-  "projectFilePath": "C:\\Users\\20105070\\Desktop\\YouNiversityApi\\YouNiversityApi\\YouNiversityApi.csproj",
+  "projectFilePath": "C:\\Users\\20105070\\source\\repos\\20105070\\YouNiversityApi\\YouNiversityApi\\YouNiversityApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\20105070\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\20105070\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

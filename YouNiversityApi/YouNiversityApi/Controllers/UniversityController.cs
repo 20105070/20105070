@@ -1,4 +1,5 @@
-﻿using ConsoleApp1.Data;
+﻿/*UniversityController.cs - Daniel Syrén (20105070)*/
+using ConsoleApp1.Data;
 using ConsoleApp1.Entities;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
