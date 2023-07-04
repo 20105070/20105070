@@ -5,10 +5,10 @@ The project is called YouNiversity; a portmanteau of you and university. Prospec
 ### 1 - Use-Cases:
 - View recommended countries and cities.	
 - Input and search universities by country or city.	
-- Click university names to travel to their websites.	
-- Save universities to a database.
+- Click university name to travel to its website.	
+- Save university to a database.
 - Load universities from a database.	
-- Delete universities from a database.
+- Delete university from a database.
 
 ### 2 - Hosting:
 - Download the back-end YouNiversity zip from https://github.com/20105070/20105070.github.io.
@@ -19,7 +19,7 @@ The project is called YouNiversity; a portmanteau of you and university. Prospec
 - Click terminal and then new terminal.
 - Type ng serve in the terminal and click enter.
 - Go to http://localhost:4200/.
-- Use YouNiversity according to its use cases.
+- Use YouNiversity according to its use-cases.
 
 ### 3 - Database:
 
