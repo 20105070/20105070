@@ -1,7 +1,7 @@
 /*cloud.component.ts - Daniel Syrén (20105070)*/
 import { Component } from '@angular/core';
-import { University } from '../models/university';
 import { HttpService } from '../http_service';
+import { University } from '../models/university';
 
 @Component({
   selector: 'app-cloud',
